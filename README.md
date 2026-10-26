@@ -32,3 +32,18 @@ GitHub Pages 使用 `main` 分支的根目錄。更新程式或圖片後推送�
 插圖由 ChatGPT 內建圖像工具生成，沿用兒童繪本風格；生成提示詞保留於 `docs/`。
 
 分數與句子紀錄僅存在當前頁面，重新載入後清除。遊戲沒有登入、錄音或資料上傳功能。
+
+## 單檔離線 HTML
+
+[下載單檔離線版](https://github.com/angusQAQ/yi-mian-yi-mian-game/releases/download/offline-v1/yi-mian-yi-mian-offline.html)
+
+下載完成後，只需把這一個 HTML 檔案複製到其他電腦，以瀏覽器開啟即可遊玩。全部題目、程式及二十九張圖集已內嵌，無須網絡或其他檔案。
+
+重新製作離線版：
+
+```sh
+python3 tools/build_single_html.py
+node tools/test_single_html.cjs
+```
+
+生成檔案位於 `build/yi-mian-yi-mian-offline.html`。離線版是發布當時的版本；網站更新後需重新製作及下載，才會包含新內容。
