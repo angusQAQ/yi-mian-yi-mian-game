@@ -1,0 +1,218 @@
+{
+  "music-read": {
+    "file": "art/music-read.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 0.8888888888888888,
+    "w": 1448,
+    "h": 1086
+  },
+  "music-draw": {
+    "file": "art/music-draw.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 0.8888888888888888,
+    "w": 1448,
+    "h": 1086
+  },
+  "music-football": {
+    "file": "art/music-football.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sing-clap": {
+    "file": "art/sing-clap.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "walk-whistle": {
+    "file": "art/walk-whistle.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sleep-football": {
+    "file": "art/sleep-football.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sing-drink": {
+    "file": "art/sing-drink.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "whistle-drink": {
+    "file": "art/whistle-drink.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sing-dance": {
+    "file": "art/sing-dance.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "tv-eat": {
+    "file": "art/tv-eat.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "music-housework": {
+    "file": "art/music-housework.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "read-tv": {
+    "file": "art/read-tv.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sleep-eat": {
+    "file": "art/sleep-eat.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "clap-waterplants": {
+    "file": "art/clap-waterplants.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sleep-waterplants": {
+    "file": "art/sleep-waterplants.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "sleep-dance": {
+    "file": "art/sleep-dance.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "people": {
+    "file": "art/people.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333333,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-mother": {
+    "file": "art/actions-mother.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-father": {
+    "file": "art/actions-father.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-brother": {
+    "file": "art/actions-brother.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-sister": {
+    "file": "art/actions-sister.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-ming": {
+    "file": "art/actions-ming.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-yan": {
+    "file": "art/actions-yan.png",
+    "cols": 5,
+    "rows": 3,
+    "ratio": 1.2,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-run": {
+    "file": "art/actions-run.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333335,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-origami": {
+    "file": "art/actions-origami.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333335,
+    "w": 1774,
+    "h": 887
+  },
+  "actions-story": {
+    "file": "art/actions-story.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333335,
+    "w": 1774,
+    "h": 887
+  },
+  "subjectless-actions": {
+    "file": "art/subjectless-actions.png",
+    "cols": 3,
+    "rows": 2,
+    "ratio": 1.3333333333333335,
+    "w": 1774,
+    "h": 887
+  }
+}

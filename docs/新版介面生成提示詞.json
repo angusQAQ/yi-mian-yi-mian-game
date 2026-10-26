@@ -1,0 +1,15 @@
+{
+  "tool": "ChatGPT built-in image generation",
+  "assets": [
+    {
+      "asset": "ui-logo",
+      "prompt": "Create a polished adorable emblem for a Chinese primary-school language learning game. Two little rounded speech-bubble characters, one sky blue and one soft apricot orange, smiling with tiny rosy cheeks, leaning together over one small open picture book. Friendly simple silhouette legible at 64 pixels, centered compact composition fills 80 percent of square canvas. Matte gouache, subtle paper-cut edges and delicate print texture matching the attached children's school-book illustration. No text, no letters, no numbers, no border or badge. Actual transparent background outside the emblem.",
+      "transparent_background": true
+    },
+    {
+      "asset": "ui-garden",
+      "prompt": "Create a wide landscape background painting for a cute primary-school children's learning game interface. Very pale mint and sky blue sky, a few soft white scalloped clouds only near upper corners, tiny yellow flowers and round gentle grassy hills along the bottom outer edge. Huge nearly plain light ivory/mint center covering 80 percent of canvas, so real interactive UI panels placed on top remain fully readable. Matte gouache and colored-paper collage with delicate fine print texture matching attached school-book reference, friendly calm shapes, restrained detail. No characters, no buildings, no objects in the center, no text or lettering, no user interface, no boxes or buttons. Target 1800 by 1100 landscape.",
+      "transparent_background": false
+    }
+  ]
+}

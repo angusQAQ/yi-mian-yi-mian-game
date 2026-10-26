@@ -1,0 +1,1678 @@
+{
+  "people": [
+    {
+      "id": "mother",
+      "name": "媽媽",
+      "color": "#e99176",
+      "hair": "#40352e",
+      "female": true,
+      "adult": true
+    },
+    {
+      "id": "father",
+      "name": "爸爸",
+      "color": "#6e9cc3",
+      "hair": "#40352e",
+      "female": false,
+      "adult": true
+    },
+    {
+      "id": "brother",
+      "name": "弟弟",
+      "color": "#ecbb57",
+      "hair": "#40352e",
+      "female": false,
+      "adult": false
+    },
+    {
+      "id": "sister",
+      "name": "姐姐",
+      "color": "#96b88b",
+      "hair": "#40352e",
+      "female": true,
+      "adult": false
+    },
+    {
+      "id": "ming",
+      "name": "小明",
+      "color": "#79b9bc",
+      "hair": "#40352e",
+      "female": false,
+      "adult": false
+    },
+    {
+      "id": "yan",
+      "name": "小欣",
+      "color": "#b49ec5",
+      "hair": "#40352e",
+      "female": true,
+      "adult": false
+    }
+  ],
+  "actions": [
+    {
+      "id": "music",
+      "name": "聽音樂",
+      "help": "用耳朵聽音樂"
+    },
+    {
+      "id": "sing",
+      "name": "唱歌",
+      "help": "用嘴巴唱歌"
+    },
+    {
+      "id": "clap",
+      "name": "拍手",
+      "help": "兩隻手一起拍"
+    },
+    {
+      "id": "walk",
+      "name": "走路",
+      "help": "雙腳向前走"
+    },
+    {
+      "id": "read",
+      "name": "看書",
+      "help": "用眼睛看書本"
+    },
+    {
+      "id": "draw",
+      "name": "畫畫",
+      "help": "手拿畫筆畫畫"
+    },
+    {
+      "id": "sleep",
+      "name": "睡覺",
+      "help": "閉上眼睛睡覺"
+    },
+    {
+      "id": "football",
+      "name": "踢足球",
+      "help": "用腳踢足球"
+    },
+    {
+      "id": "drink",
+      "name": "喝水",
+      "help": "拿起杯子喝水"
+    },
+    {
+      "id": "whistle",
+      "name": "吹口哨",
+      "help": "用嘴巴吹口哨"
+    },
+    {
+      "id": "tv",
+      "name": "看電視",
+      "help": "用眼睛看電視"
+    },
+    {
+      "id": "housework",
+      "name": "掃地",
+      "help": "用掃帚清潔地面"
+    },
+    {
+      "id": "eat",
+      "name": "吃飯",
+      "help": "用餐具吃飯"
+    },
+    {
+      "id": "dance",
+      "name": "跳舞",
+      "help": "身體隨著音樂擺動"
+    },
+    {
+      "id": "waterplants",
+      "name": "澆花",
+      "help": "用水壺為花朵澆水"
+    },
+    {
+      "id": "run",
+      "name": "跑步",
+      "help": "雙腳交替向前跑"
+    },
+    {
+      "id": "origami",
+      "name": "摺紙",
+      "help": "用雙手把紙摺成形狀"
+    },
+    {
+      "id": "story",
+      "name": "聽故事",
+      "help": "用耳朵聽故事內容"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "music-housework",
+      "a": "music",
+      "b": "housework",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。"
+    },
+    {
+      "id": "music-read",
+      "a": "music",
+      "b": "read",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。"
+    },
+    {
+      "id": "music-draw",
+      "a": "music",
+      "b": "draw",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。"
+    },
+    {
+      "id": "music-football",
+      "a": "music",
+      "b": "football",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。"
+    },
+    {
+      "id": "sing-clap",
+      "a": "sing",
+      "b": "clap",
+      "ok": true,
+      "why": "嘴巴可以唱歌，同時做另一件事。"
+    },
+    {
+      "id": "walk-whistle",
+      "a": "walk",
+      "b": "whistle",
+      "ok": true,
+      "why": "雙腳走路時，嘴巴可以吹口哨。"
+    },
+    {
+      "id": "sing-dance",
+      "a": "sing",
+      "b": "dance",
+      "ok": true,
+      "why": "嘴巴唱歌時，身體可以同時跳舞。"
+    },
+    {
+      "id": "tv-eat",
+      "a": "tv",
+      "b": "eat",
+      "ok": true,
+      "why": "眼睛看電視時，可以同時吃飯。"
+    },
+    {
+      "id": "sleep-football",
+      "a": "sleep",
+      "b": "football",
+      "ok": false,
+      "why": "睡著時，不能同時踢足球。"
+    },
+    {
+      "id": "sing-drink",
+      "a": "sing",
+      "b": "drink",
+      "ok": false,
+      "why": "喝水時，嘴巴不能同時唱歌。"
+    },
+    {
+      "id": "whistle-drink",
+      "a": "whistle",
+      "b": "drink",
+      "ok": false,
+      "why": "喝水時，嘴巴不能同時吹口哨。"
+    },
+    {
+      "id": "read-tv",
+      "a": "read",
+      "b": "tv",
+      "ok": false,
+      "why": "看清書本時，不能同時看清另一方向的電視。"
+    },
+    {
+      "id": "sleep-eat",
+      "a": "sleep",
+      "b": "eat",
+      "ok": false,
+      "why": "睡著時，不能同時吃飯。"
+    },
+    {
+      "id": "clap-waterplants",
+      "a": "clap",
+      "b": "waterplants",
+      "ok": false,
+      "why": "雙手拍在一起時，不能同時拿水壺澆花。"
+    },
+    {
+      "id": "sleep-waterplants",
+      "a": "sleep",
+      "b": "waterplants",
+      "ok": false,
+      "why": "睡著時，不能同時澆花。"
+    },
+    {
+      "id": "sleep-dance",
+      "a": "sleep",
+      "b": "dance",
+      "ok": false,
+      "why": "睡著時，不能同時跳舞。"
+    }
+  ],
+  "combinations": {
+    "music|sing": {
+      "key": "music|sing",
+      "a": "music",
+      "b": "sing",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "clap|music": {
+      "key": "clap|music",
+      "a": "music",
+      "b": "clap",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|walk": {
+      "key": "music|walk",
+      "a": "music",
+      "b": "walk",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|read": {
+      "key": "music|read",
+      "a": "music",
+      "b": "read",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible",
+      "artId": "music-read"
+    },
+    "draw|music": {
+      "key": "draw|music",
+      "a": "music",
+      "b": "draw",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible",
+      "artId": "music-draw"
+    },
+    "football|music": {
+      "key": "football|music",
+      "a": "music",
+      "b": "football",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible",
+      "artId": "music-football"
+    },
+    "drink|music": {
+      "key": "drink|music",
+      "a": "music",
+      "b": "drink",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|whistle": {
+      "key": "music|whistle",
+      "a": "music",
+      "b": "whistle",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|tv": {
+      "key": "music|tv",
+      "a": "music",
+      "b": "tv",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "housework|music": {
+      "key": "housework|music",
+      "a": "music",
+      "b": "housework",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible",
+      "artId": "music-housework"
+    },
+    "eat|music": {
+      "key": "eat|music",
+      "a": "music",
+      "b": "eat",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "dance|music": {
+      "key": "dance|music",
+      "a": "music",
+      "b": "dance",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|waterplants": {
+      "key": "music|waterplants",
+      "a": "music",
+      "b": "waterplants",
+      "ok": true,
+      "why": "耳朵可以聽音樂，同時做另一件事。",
+      "kind": "possible"
+    },
+    "music|sleep": {
+      "key": "music|sleep",
+      "a": "music",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著後，不能同時清醒地聽音樂。",
+      "kind": "conflict"
+    },
+    "clap|sing": {
+      "key": "clap|sing",
+      "a": "sing",
+      "b": "clap",
+      "ok": true,
+      "why": "嘴巴唱歌時，雙手可以拍手。",
+      "kind": "possible",
+      "artId": "sing-clap"
+    },
+    "sing|walk": {
+      "key": "sing|walk",
+      "a": "sing",
+      "b": "walk",
+      "ok": true,
+      "why": "嘴巴唱歌時，雙腳可以走路。",
+      "kind": "possible"
+    },
+    "read|sing": {
+      "key": "read|sing",
+      "a": "sing",
+      "b": "read",
+      "ok": true,
+      "why": "看著書上的歌詞，可以同時唱歌。",
+      "kind": "possible"
+    },
+    "draw|sing": {
+      "key": "draw|sing",
+      "a": "sing",
+      "b": "draw",
+      "ok": true,
+      "why": "嘴巴唱歌時，手可以畫畫。",
+      "kind": "possible"
+    },
+    "football|sing": {
+      "key": "football|sing",
+      "a": "sing",
+      "b": "football",
+      "ok": true,
+      "why": "嘴巴唱歌時，雙腳可以踢球。",
+      "kind": "possible"
+    },
+    "sing|tv": {
+      "key": "sing|tv",
+      "a": "sing",
+      "b": "tv",
+      "ok": true,
+      "why": "眼睛看電視時，嘴巴可以唱歌。",
+      "kind": "possible"
+    },
+    "housework|sing": {
+      "key": "housework|sing",
+      "a": "sing",
+      "b": "housework",
+      "ok": true,
+      "why": "嘴巴唱歌時，雙手可以掃地。",
+      "kind": "possible"
+    },
+    "dance|sing": {
+      "key": "dance|sing",
+      "a": "sing",
+      "b": "dance",
+      "ok": true,
+      "why": "嘴巴唱歌時，身體可以同時跳舞。",
+      "kind": "possible",
+      "artId": "sing-dance"
+    },
+    "sing|waterplants": {
+      "key": "sing|waterplants",
+      "a": "sing",
+      "b": "waterplants",
+      "ok": true,
+      "why": "嘴巴唱歌時，手可以為花朵澆水。",
+      "kind": "possible"
+    },
+    "sing|sleep": {
+      "key": "sing|sleep",
+      "a": "sing",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時唱歌。",
+      "kind": "conflict"
+    },
+    "drink|sing": {
+      "key": "drink|sing",
+      "a": "sing",
+      "b": "drink",
+      "ok": false,
+      "why": "喝水時，嘴巴不能同時唱歌。",
+      "kind": "conflict",
+      "artId": "sing-drink"
+    },
+    "sing|whistle": {
+      "key": "sing|whistle",
+      "a": "sing",
+      "b": "whistle",
+      "ok": false,
+      "why": "嘴巴不能同時唱歌和吹口哨。",
+      "kind": "conflict"
+    },
+    "eat|sing": {
+      "key": "eat|sing",
+      "a": "sing",
+      "b": "eat",
+      "ok": false,
+      "why": "嘴巴吃飯時，不能同時唱歌。",
+      "kind": "conflict"
+    },
+    "clap|walk": {
+      "key": "clap|walk",
+      "a": "clap",
+      "b": "walk",
+      "ok": true,
+      "why": "雙腳走路時，雙手可以拍手。",
+      "kind": "possible"
+    },
+    "clap|read": {
+      "key": "clap|read",
+      "a": "clap",
+      "b": "read",
+      "ok": true,
+      "why": "書本放在桌上時，可以一面看書，一面拍手。",
+      "kind": "possible"
+    },
+    "clap|football": {
+      "key": "clap|football",
+      "a": "clap",
+      "b": "football",
+      "ok": true,
+      "why": "腳可以踢球，雙手可以拍手。",
+      "kind": "possible"
+    },
+    "clap|whistle": {
+      "key": "clap|whistle",
+      "a": "clap",
+      "b": "whistle",
+      "ok": true,
+      "why": "嘴巴吹口哨時，雙手可以拍手。",
+      "kind": "possible"
+    },
+    "clap|tv": {
+      "key": "clap|tv",
+      "a": "clap",
+      "b": "tv",
+      "ok": true,
+      "why": "眼睛看電視時，雙手可以拍手。",
+      "kind": "possible"
+    },
+    "clap|dance": {
+      "key": "clap|dance",
+      "a": "clap",
+      "b": "dance",
+      "ok": true,
+      "why": "跳舞時，雙手可以配合節奏拍手。",
+      "kind": "possible"
+    },
+    "clap|draw": {
+      "key": "clap|draw",
+      "a": "clap",
+      "b": "draw",
+      "ok": false,
+      "why": "雙手拍在一起時，不能同時握筆畫畫。",
+      "kind": "conflict"
+    },
+    "clap|sleep": {
+      "key": "clap|sleep",
+      "a": "clap",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時拍手。",
+      "kind": "conflict"
+    },
+    "clap|drink": {
+      "key": "clap|drink",
+      "a": "clap",
+      "b": "drink",
+      "ok": false,
+      "why": "雙手拍手時，不能同時拿杯子喝水。",
+      "kind": "conflict"
+    },
+    "clap|housework": {
+      "key": "clap|housework",
+      "a": "clap",
+      "b": "housework",
+      "ok": false,
+      "why": "雙手拍手時，不能同時拿掃帚掃地。",
+      "kind": "conflict"
+    },
+    "clap|eat": {
+      "key": "clap|eat",
+      "a": "clap",
+      "b": "eat",
+      "ok": false,
+      "why": "雙手拍手時，不能同時拿餐具吃飯。",
+      "kind": "conflict"
+    },
+    "clap|waterplants": {
+      "key": "clap|waterplants",
+      "a": "clap",
+      "b": "waterplants",
+      "ok": false,
+      "why": "雙手拍手時，不能同時拿水壺澆花。",
+      "kind": "conflict",
+      "artId": "clap-waterplants"
+    },
+    "football|walk": {
+      "key": "football|walk",
+      "a": "walk",
+      "b": "football",
+      "ok": true,
+      "why": "一面向前走，一面可以用腳踢足球。",
+      "kind": "possible"
+    },
+    "drink|walk": {
+      "key": "drink|walk",
+      "a": "walk",
+      "b": "drink",
+      "ok": true,
+      "why": "慢慢走路時，可以用手拿杯子喝水。",
+      "kind": "possible"
+    },
+    "walk|whistle": {
+      "key": "walk|whistle",
+      "a": "walk",
+      "b": "whistle",
+      "ok": true,
+      "why": "雙腳走路時，嘴巴可以吹口哨。",
+      "kind": "possible",
+      "artId": "walk-whistle"
+    },
+    "housework|walk": {
+      "key": "housework|walk",
+      "a": "walk",
+      "b": "housework",
+      "ok": true,
+      "why": "雙腳走動時，雙手可以掃地。",
+      "kind": "possible"
+    },
+    "eat|walk": {
+      "key": "eat|walk",
+      "a": "walk",
+      "b": "eat",
+      "ok": true,
+      "why": "慢慢走路時，嘴巴可以咀嚼食物。",
+      "kind": "possible"
+    },
+    "dance|walk": {
+      "key": "dance|walk",
+      "a": "walk",
+      "b": "dance",
+      "ok": true,
+      "why": "跳舞時，可以配合向前走的舞步。",
+      "kind": "possible"
+    },
+    "walk|waterplants": {
+      "key": "walk|waterplants",
+      "a": "walk",
+      "b": "waterplants",
+      "ok": true,
+      "why": "沿著花圃慢慢走，可以同時澆花。",
+      "kind": "possible"
+    },
+    "read|walk": {
+      "key": "read|walk",
+      "a": "walk",
+      "b": "read",
+      "ok": false,
+      "why": "走路看書容易碰撞，這樣不安全。",
+      "kind": "safety"
+    },
+    "draw|walk": {
+      "key": "draw|walk",
+      "a": "walk",
+      "b": "draw",
+      "ok": false,
+      "why": "走路時畫畫，容易跌倒。",
+      "kind": "safety"
+    },
+    "tv|walk": {
+      "key": "tv|walk",
+      "a": "walk",
+      "b": "tv",
+      "ok": false,
+      "why": "走路需要看前方，看電視容易碰撞。",
+      "kind": "safety"
+    },
+    "sleep|walk": {
+      "key": "sleep|walk",
+      "a": "walk",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時清醒地走路。",
+      "kind": "conflict"
+    },
+    "draw|read": {
+      "key": "draw|read",
+      "a": "read",
+      "b": "draw",
+      "ok": true,
+      "why": "看著書本上的花朵，可以同時畫花。",
+      "kind": "possible"
+    },
+    "drink|read": {
+      "key": "drink|read",
+      "a": "read",
+      "b": "drink",
+      "ok": true,
+      "why": "眼睛看書時，可以拿起杯子喝水。",
+      "kind": "possible"
+    },
+    "read|whistle": {
+      "key": "read|whistle",
+      "a": "read",
+      "b": "whistle",
+      "ok": true,
+      "why": "眼睛看書時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "eat|read": {
+      "key": "eat|read",
+      "a": "read",
+      "b": "eat",
+      "ok": true,
+      "why": "書本放在桌上時，可以一面看書，一面吃飯。",
+      "kind": "possible"
+    },
+    "read|waterplants": {
+      "key": "read|waterplants",
+      "a": "read",
+      "b": "waterplants",
+      "ok": true,
+      "why": "書本放在花盆旁，可以一面看書，一面澆花。",
+      "kind": "possible"
+    },
+    "read|sleep": {
+      "key": "read|sleep",
+      "a": "read",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時看書。",
+      "kind": "conflict"
+    },
+    "read|tv": {
+      "key": "read|tv",
+      "a": "read",
+      "b": "tv",
+      "ok": false,
+      "why": "看清書本時，不能同時看清另一方向的電視。",
+      "kind": "conflict",
+      "artId": "read-tv"
+    },
+    "housework|read": {
+      "key": "housework|read",
+      "a": "read",
+      "b": "housework",
+      "ok": false,
+      "why": "眼睛看書時，看不到需要清掃的地面。",
+      "kind": "conflict"
+    },
+    "football|read": {
+      "key": "football|read",
+      "a": "read",
+      "b": "football",
+      "ok": false,
+      "why": "看書時踢球，看不到前方，容易碰撞。",
+      "kind": "safety"
+    },
+    "dance|read": {
+      "key": "dance|read",
+      "a": "read",
+      "b": "dance",
+      "ok": false,
+      "why": "看書時跳舞，容易跌倒。",
+      "kind": "safety"
+    },
+    "draw|drink": {
+      "key": "draw|drink",
+      "a": "draw",
+      "b": "drink",
+      "ok": true,
+      "why": "一手畫畫，另一手可以拿杯子喝水。",
+      "kind": "possible"
+    },
+    "draw|whistle": {
+      "key": "draw|whistle",
+      "a": "draw",
+      "b": "whistle",
+      "ok": true,
+      "why": "手拿畫筆畫畫時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "draw|eat": {
+      "key": "draw|eat",
+      "a": "draw",
+      "b": "eat",
+      "ok": true,
+      "why": "一手拿筆畫畫，另一手可以拿餐具吃飯。",
+      "kind": "possible"
+    },
+    "draw|waterplants": {
+      "key": "draw|waterplants",
+      "a": "draw",
+      "b": "waterplants",
+      "ok": true,
+      "why": "一手拿筆，另一手可以為旁邊的花盆澆水。",
+      "kind": "possible"
+    },
+    "draw|sleep": {
+      "key": "draw|sleep",
+      "a": "draw",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時畫畫。",
+      "kind": "conflict"
+    },
+    "draw|tv": {
+      "key": "draw|tv",
+      "a": "draw",
+      "b": "tv",
+      "ok": false,
+      "why": "畫畫需要看紙張，不能同時看清另一邊的電視。",
+      "kind": "conflict"
+    },
+    "draw|housework": {
+      "key": "draw|housework",
+      "a": "draw",
+      "b": "housework",
+      "ok": false,
+      "why": "雙手拿著掃帚時，不能同時拿筆畫畫。",
+      "kind": "conflict"
+    },
+    "draw|football": {
+      "key": "draw|football",
+      "a": "draw",
+      "b": "football",
+      "ok": false,
+      "why": "踢球時畫畫，畫紙和畫筆容易掉落。",
+      "kind": "safety"
+    },
+    "dance|draw": {
+      "key": "dance|draw",
+      "a": "draw",
+      "b": "dance",
+      "ok": false,
+      "why": "跳舞時身體搖動，不能好好畫畫。",
+      "kind": "coordination"
+    },
+    "football|sleep": {
+      "key": "football|sleep",
+      "a": "sleep",
+      "b": "football",
+      "ok": false,
+      "why": "睡著時，不能同時踢足球。",
+      "kind": "conflict",
+      "artId": "sleep-football"
+    },
+    "drink|sleep": {
+      "key": "drink|sleep",
+      "a": "sleep",
+      "b": "drink",
+      "ok": false,
+      "why": "睡著時，不能同時喝水。",
+      "kind": "conflict"
+    },
+    "sleep|whistle": {
+      "key": "sleep|whistle",
+      "a": "sleep",
+      "b": "whistle",
+      "ok": false,
+      "why": "睡著時，不能同時吹口哨。",
+      "kind": "conflict"
+    },
+    "sleep|tv": {
+      "key": "sleep|tv",
+      "a": "sleep",
+      "b": "tv",
+      "ok": false,
+      "why": "睡著時，不能同時看電視。",
+      "kind": "conflict"
+    },
+    "housework|sleep": {
+      "key": "housework|sleep",
+      "a": "sleep",
+      "b": "housework",
+      "ok": false,
+      "why": "睡著時，不能同時掃地。",
+      "kind": "conflict"
+    },
+    "eat|sleep": {
+      "key": "eat|sleep",
+      "a": "sleep",
+      "b": "eat",
+      "ok": false,
+      "why": "睡著時，不能同時吃飯。",
+      "kind": "conflict",
+      "artId": "sleep-eat"
+    },
+    "dance|sleep": {
+      "key": "dance|sleep",
+      "a": "sleep",
+      "b": "dance",
+      "ok": false,
+      "why": "睡著時，不能同時跳舞。",
+      "kind": "conflict",
+      "artId": "sleep-dance"
+    },
+    "sleep|waterplants": {
+      "key": "sleep|waterplants",
+      "a": "sleep",
+      "b": "waterplants",
+      "ok": false,
+      "why": "睡著時，不能同時澆花。",
+      "kind": "conflict",
+      "artId": "sleep-waterplants"
+    },
+    "football|whistle": {
+      "key": "football|whistle",
+      "a": "football",
+      "b": "whistle",
+      "ok": true,
+      "why": "雙腳踢球時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "dance|football": {
+      "key": "dance|football",
+      "a": "football",
+      "b": "dance",
+      "ok": true,
+      "why": "跳舞的動作中，可以加入踢球的動作。",
+      "kind": "possible"
+    },
+    "drink|football": {
+      "key": "drink|football",
+      "a": "football",
+      "b": "drink",
+      "ok": false,
+      "why": "踢球時拿著水杯，容易打翻和跌倒。",
+      "kind": "safety"
+    },
+    "football|housework": {
+      "key": "football|housework",
+      "a": "football",
+      "b": "housework",
+      "ok": false,
+      "why": "踢球時拿著掃帚，容易絆倒。",
+      "kind": "safety"
+    },
+    "eat|football": {
+      "key": "eat|football",
+      "a": "football",
+      "b": "eat",
+      "ok": false,
+      "why": "踢球時拿著飯碗，飯菜容易灑出來。",
+      "kind": "safety"
+    },
+    "football|waterplants": {
+      "key": "football|waterplants",
+      "a": "football",
+      "b": "waterplants",
+      "ok": false,
+      "why": "踢球時澆花，水壺容易掉落。",
+      "kind": "safety"
+    },
+    "football|tv": {
+      "key": "football|tv",
+      "a": "football",
+      "b": "tv",
+      "ok": false,
+      "why": "眼睛看著足球時，不能同時看清另一邊的電視。",
+      "kind": "conflict"
+    },
+    "drink|whistle": {
+      "key": "drink|whistle",
+      "a": "drink",
+      "b": "whistle",
+      "ok": false,
+      "why": "喝水時，嘴巴不能同時吹口哨。",
+      "kind": "conflict",
+      "artId": "whistle-drink"
+    },
+    "drink|tv": {
+      "key": "drink|tv",
+      "a": "drink",
+      "b": "tv",
+      "ok": true,
+      "why": "眼睛看電視時，可以拿起杯子喝水。",
+      "kind": "possible"
+    },
+    "drink|housework": {
+      "key": "drink|housework",
+      "a": "drink",
+      "b": "housework",
+      "ok": true,
+      "why": "一手拿輕便掃帚，另一手可以拿杯子喝水。",
+      "kind": "possible"
+    },
+    "drink|eat": {
+      "key": "drink|eat",
+      "a": "drink",
+      "b": "eat",
+      "ok": false,
+      "why": "吃飯和喝水要輪流用嘴巴。",
+      "kind": "conflict"
+    },
+    "dance|drink": {
+      "key": "dance|drink",
+      "a": "drink",
+      "b": "dance",
+      "ok": false,
+      "why": "跳舞時喝水，杯中的水容易灑出來。",
+      "kind": "safety"
+    },
+    "drink|waterplants": {
+      "key": "drink|waterplants",
+      "a": "drink",
+      "b": "waterplants",
+      "ok": true,
+      "why": "一手拿杯子，另一手可以拿水壺澆花。",
+      "kind": "possible"
+    },
+    "tv|whistle": {
+      "key": "tv|whistle",
+      "a": "whistle",
+      "b": "tv",
+      "ok": true,
+      "why": "眼睛看電視時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "housework|whistle": {
+      "key": "housework|whistle",
+      "a": "whistle",
+      "b": "housework",
+      "ok": true,
+      "why": "雙手掃地時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "dance|whistle": {
+      "key": "dance|whistle",
+      "a": "whistle",
+      "b": "dance",
+      "ok": true,
+      "why": "身體跳舞時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "waterplants|whistle": {
+      "key": "waterplants|whistle",
+      "a": "whistle",
+      "b": "waterplants",
+      "ok": true,
+      "why": "手拿水壺澆花時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "eat|whistle": {
+      "key": "eat|whistle",
+      "a": "whistle",
+      "b": "eat",
+      "ok": false,
+      "why": "嘴巴吃飯時，不能同時吹口哨。",
+      "kind": "conflict"
+    },
+    "housework|tv": {
+      "key": "housework|tv",
+      "a": "tv",
+      "b": "housework",
+      "ok": true,
+      "why": "電視在前方時，可以一面看電視，一面掃地。",
+      "kind": "possible"
+    },
+    "eat|tv": {
+      "key": "eat|tv",
+      "a": "tv",
+      "b": "eat",
+      "ok": true,
+      "why": "眼睛看電視時，可以同時吃飯。",
+      "kind": "possible",
+      "artId": "tv-eat"
+    },
+    "dance|tv": {
+      "key": "dance|tv",
+      "a": "tv",
+      "b": "dance",
+      "ok": true,
+      "why": "看著電視中的舞步，可以同時跳舞。",
+      "kind": "possible"
+    },
+    "tv|waterplants": {
+      "key": "tv|waterplants",
+      "a": "tv",
+      "b": "waterplants",
+      "ok": true,
+      "why": "電視在前方時，可以用手為花盆澆水。",
+      "kind": "possible"
+    },
+    "eat|housework": {
+      "key": "eat|housework",
+      "a": "housework",
+      "b": "eat",
+      "ok": false,
+      "why": "掃地會揚起灰塵，不適合同時吃飯。",
+      "kind": "safety"
+    },
+    "dance|housework": {
+      "key": "dance|housework",
+      "a": "housework",
+      "b": "dance",
+      "ok": true,
+      "why": "掃地時，身體可以配合節奏跳舞。",
+      "kind": "possible"
+    },
+    "housework|waterplants": {
+      "key": "housework|waterplants",
+      "a": "housework",
+      "b": "waterplants",
+      "ok": false,
+      "why": "雙手拿著掃帚時，不能同時拿水壺澆花。",
+      "kind": "conflict"
+    },
+    "dance|eat": {
+      "key": "dance|eat",
+      "a": "eat",
+      "b": "dance",
+      "ok": false,
+      "why": "拿著飯碗跳舞，飯菜容易灑出來。",
+      "kind": "safety"
+    },
+    "eat|waterplants": {
+      "key": "eat|waterplants",
+      "a": "eat",
+      "b": "waterplants",
+      "ok": true,
+      "why": "飯碗放在桌上時，一手吃飯，另一手可以澆花。",
+      "kind": "possible"
+    },
+    "dance|waterplants": {
+      "key": "dance|waterplants",
+      "a": "dance",
+      "b": "waterplants",
+      "ok": true,
+      "why": "輕輕擺動身體跳舞時，手可以為花朵澆水。",
+      "kind": "possible"
+    },
+    "music|music": {
+      "key": "music|music",
+      "a": "music",
+      "b": "music",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "sing|sing": {
+      "key": "sing|sing",
+      "a": "sing",
+      "b": "sing",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "clap|clap": {
+      "key": "clap|clap",
+      "a": "clap",
+      "b": "clap",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "walk|walk": {
+      "key": "walk|walk",
+      "a": "walk",
+      "b": "walk",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "read|read": {
+      "key": "read|read",
+      "a": "read",
+      "b": "read",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "draw|draw": {
+      "key": "draw|draw",
+      "a": "draw",
+      "b": "draw",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "sleep|sleep": {
+      "key": "sleep|sleep",
+      "a": "sleep",
+      "b": "sleep",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "football|football": {
+      "key": "football|football",
+      "a": "football",
+      "b": "football",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "drink|drink": {
+      "key": "drink|drink",
+      "a": "drink",
+      "b": "drink",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "whistle|whistle": {
+      "key": "whistle|whistle",
+      "a": "whistle",
+      "b": "whistle",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "tv|tv": {
+      "key": "tv|tv",
+      "a": "tv",
+      "b": "tv",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "housework|housework": {
+      "key": "housework|housework",
+      "a": "housework",
+      "b": "housework",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "eat|eat": {
+      "key": "eat|eat",
+      "a": "eat",
+      "b": "eat",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "dance|dance": {
+      "key": "dance|dance",
+      "a": "dance",
+      "b": "dance",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "waterplants|waterplants": {
+      "key": "waterplants|waterplants",
+      "a": "waterplants",
+      "b": "waterplants",
+      "ok": false,
+      "why": "請選兩個不同的動作。",
+      "kind": "same"
+    },
+    "music|run": {
+      "key": "music|run",
+      "a": "run",
+      "b": "music",
+      "ok": true,
+      "why": "耳朵聽音樂時，雙腳可以在安全的跑道上跑步。",
+      "kind": "possible"
+    },
+    "run|sing": {
+      "key": "run|sing",
+      "a": "run",
+      "b": "sing",
+      "ok": true,
+      "why": "慢跑時，可以同時輕聲唱歌。",
+      "kind": "possible"
+    },
+    "clap|run": {
+      "key": "clap|run",
+      "a": "run",
+      "b": "clap",
+      "ok": true,
+      "why": "跑步時，雙手可以同時拍手。",
+      "kind": "possible"
+    },
+    "run|walk": {
+      "key": "run|walk",
+      "a": "run",
+      "b": "walk",
+      "ok": false,
+      "why": "走路和跑步的腳步不同，不能同時做。",
+      "kind": "conflict"
+    },
+    "read|run": {
+      "key": "read|run",
+      "a": "run",
+      "b": "read",
+      "ok": false,
+      "why": "跑步時看書，容易跌倒。",
+      "kind": "conflict"
+    },
+    "draw|run": {
+      "key": "draw|run",
+      "a": "run",
+      "b": "draw",
+      "ok": false,
+      "why": "跑步時，不能安全地專心畫畫。",
+      "kind": "conflict"
+    },
+    "run|sleep": {
+      "key": "run|sleep",
+      "a": "run",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時跑步。",
+      "kind": "conflict"
+    },
+    "football|run": {
+      "key": "football|run",
+      "a": "run",
+      "b": "football",
+      "ok": true,
+      "why": "踢足球時，可以同時向前跑。",
+      "kind": "possible"
+    },
+    "drink|run": {
+      "key": "drink|run",
+      "a": "run",
+      "b": "drink",
+      "ok": false,
+      "why": "跑步時喝水，容易嗆到。",
+      "kind": "conflict"
+    },
+    "run|whistle": {
+      "key": "run|whistle",
+      "a": "run",
+      "b": "whistle",
+      "ok": true,
+      "why": "慢跑時，嘴巴可以同時吹口哨。",
+      "kind": "possible"
+    },
+    "run|tv": {
+      "key": "run|tv",
+      "a": "run",
+      "b": "tv",
+      "ok": false,
+      "why": "跑步時看電視，容易跌倒。",
+      "kind": "conflict"
+    },
+    "housework|run": {
+      "key": "housework|run",
+      "a": "run",
+      "b": "housework",
+      "ok": false,
+      "why": "掃地時要慢慢移動，不能同時跑步。",
+      "kind": "conflict"
+    },
+    "eat|run": {
+      "key": "eat|run",
+      "a": "run",
+      "b": "eat",
+      "ok": false,
+      "why": "跑步時吃飯，容易嗆到。",
+      "kind": "conflict"
+    },
+    "dance|run": {
+      "key": "dance|run",
+      "a": "run",
+      "b": "dance",
+      "ok": false,
+      "why": "跑步和跳舞的腳步不同，不能同時完成。",
+      "kind": "conflict"
+    },
+    "run|waterplants": {
+      "key": "run|waterplants",
+      "a": "run",
+      "b": "waterplants",
+      "ok": false,
+      "why": "跑步時拿水壺澆花，容易跌倒或把水灑出。",
+      "kind": "conflict"
+    },
+    "music|origami": {
+      "key": "music|origami",
+      "a": "origami",
+      "b": "music",
+      "ok": true,
+      "why": "雙手摺紙時，耳朵可以聽音樂。",
+      "kind": "possible"
+    },
+    "origami|sing": {
+      "key": "origami|sing",
+      "a": "origami",
+      "b": "sing",
+      "ok": true,
+      "why": "雙手摺紙時，嘴巴可以唱歌。",
+      "kind": "possible"
+    },
+    "clap|origami": {
+      "key": "clap|origami",
+      "a": "origami",
+      "b": "clap",
+      "ok": false,
+      "why": "雙手忙著摺紙，不能同時拍手。",
+      "kind": "conflict"
+    },
+    "origami|walk": {
+      "key": "origami|walk",
+      "a": "origami",
+      "b": "walk",
+      "ok": false,
+      "why": "摺紙要看清紙張，走路時不宜同時摺紙。",
+      "kind": "conflict"
+    },
+    "origami|read": {
+      "key": "origami|read",
+      "a": "origami",
+      "b": "read",
+      "ok": false,
+      "why": "眼睛看著紙張摺紙時，不能同時看清書本。",
+      "kind": "conflict"
+    },
+    "draw|origami": {
+      "key": "draw|origami",
+      "a": "origami",
+      "b": "draw",
+      "ok": false,
+      "why": "雙手摺紙時，不能同時拿畫筆畫畫。",
+      "kind": "conflict"
+    },
+    "origami|sleep": {
+      "key": "origami|sleep",
+      "a": "origami",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著時，不能同時摺紙。",
+      "kind": "conflict"
+    },
+    "football|origami": {
+      "key": "football|origami",
+      "a": "origami",
+      "b": "football",
+      "ok": false,
+      "why": "踢足球時摺紙，容易分心或跌倒。",
+      "kind": "conflict"
+    },
+    "drink|origami": {
+      "key": "drink|origami",
+      "a": "origami",
+      "b": "drink",
+      "ok": false,
+      "why": "雙手摺紙時，不能同時拿杯子喝水。",
+      "kind": "conflict"
+    },
+    "origami|whistle": {
+      "key": "origami|whistle",
+      "a": "origami",
+      "b": "whistle",
+      "ok": true,
+      "why": "雙手摺紙時，嘴巴可以吹口哨。",
+      "kind": "possible"
+    },
+    "origami|tv": {
+      "key": "origami|tv",
+      "a": "origami",
+      "b": "tv",
+      "ok": false,
+      "why": "摺紙要看清紙張，不能同時專心看電視。",
+      "kind": "conflict"
+    },
+    "housework|origami": {
+      "key": "housework|origami",
+      "a": "origami",
+      "b": "housework",
+      "ok": false,
+      "why": "雙手摺紙時，不能同時拿掃帚掃地。",
+      "kind": "conflict"
+    },
+    "eat|origami": {
+      "key": "eat|origami",
+      "a": "origami",
+      "b": "eat",
+      "ok": false,
+      "why": "雙手摺紙時，不能同時拿餐具吃飯。",
+      "kind": "conflict"
+    },
+    "dance|origami": {
+      "key": "dance|origami",
+      "a": "origami",
+      "b": "dance",
+      "ok": false,
+      "why": "摺紙要穩定地放好紙張，不能同時跳舞。",
+      "kind": "conflict"
+    },
+    "origami|waterplants": {
+      "key": "origami|waterplants",
+      "a": "origami",
+      "b": "waterplants",
+      "ok": false,
+      "why": "雙手摺紙時，不能同時拿水壺澆花。",
+      "kind": "conflict"
+    },
+    "origami|run": {
+      "key": "origami|run",
+      "a": "origami",
+      "b": "run",
+      "ok": false,
+      "why": "跑步時摺紙，容易分心或跌倒。",
+      "kind": "conflict"
+    },
+    "music|story": {
+      "key": "music|story",
+      "a": "story",
+      "b": "music",
+      "ok": false,
+      "why": "故事和音樂同時播放，難以聽清楚故事內容。",
+      "kind": "conflict"
+    },
+    "sing|story": {
+      "key": "sing|story",
+      "a": "story",
+      "b": "sing",
+      "ok": false,
+      "why": "唱歌的聲音會妨礙聽清楚故事。",
+      "kind": "conflict"
+    },
+    "clap|story": {
+      "key": "clap|story",
+      "a": "story",
+      "b": "clap",
+      "ok": true,
+      "why": "聽故事時，雙手可以拍手。",
+      "kind": "possible"
+    },
+    "story|walk": {
+      "key": "story|walk",
+      "a": "story",
+      "b": "walk",
+      "ok": true,
+      "why": "雙腳在安全的地方走路時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "read|story": {
+      "key": "read|story",
+      "a": "story",
+      "b": "read",
+      "ok": true,
+      "why": "看著同一本故事書，可以同時聽故事。",
+      "kind": "possible"
+    },
+    "draw|story": {
+      "key": "draw|story",
+      "a": "story",
+      "b": "draw",
+      "ok": true,
+      "why": "耳朵聽故事時，手可以畫畫。",
+      "kind": "possible"
+    },
+    "sleep|story": {
+      "key": "sleep|story",
+      "a": "story",
+      "b": "sleep",
+      "ok": false,
+      "why": "睡著後，不能同時清醒地聽故事。",
+      "kind": "conflict"
+    },
+    "football|story": {
+      "key": "football|story",
+      "a": "story",
+      "b": "football",
+      "ok": true,
+      "why": "耳朵聽故事時，雙腳可以踢球。",
+      "kind": "possible"
+    },
+    "drink|story": {
+      "key": "drink|story",
+      "a": "story",
+      "b": "drink",
+      "ok": true,
+      "why": "拿杯子喝水時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "story|whistle": {
+      "key": "story|whistle",
+      "a": "story",
+      "b": "whistle",
+      "ok": false,
+      "why": "吹口哨的聲音會妨礙聽清楚故事。",
+      "kind": "conflict"
+    },
+    "story|tv": {
+      "key": "story|tv",
+      "a": "story",
+      "b": "tv",
+      "ok": false,
+      "why": "電視和故事同時播放，難以聽清楚兩邊的內容。",
+      "kind": "conflict"
+    },
+    "housework|story": {
+      "key": "housework|story",
+      "a": "story",
+      "b": "housework",
+      "ok": true,
+      "why": "雙手掃地時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "eat|story": {
+      "key": "eat|story",
+      "a": "story",
+      "b": "eat",
+      "ok": true,
+      "why": "吃飯時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "dance|story": {
+      "key": "dance|story",
+      "a": "story",
+      "b": "dance",
+      "ok": true,
+      "why": "身體跳舞時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "story|waterplants": {
+      "key": "story|waterplants",
+      "a": "story",
+      "b": "waterplants",
+      "ok": true,
+      "why": "拿水壺澆花時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "run|story": {
+      "key": "run|story",
+      "a": "story",
+      "b": "run",
+      "ok": true,
+      "why": "在安全的跑道上慢跑時，可以同時聽故事。",
+      "kind": "possible"
+    },
+    "origami|story": {
+      "key": "origami|story",
+      "a": "story",
+      "b": "origami",
+      "ok": true,
+      "why": "雙手摺紙時，耳朵可以聽故事。",
+      "kind": "possible"
+    },
+    "run|run": {
+      "key": "run|run",
+      "a": "run",
+      "b": "run",
+      "ok": false,
+      "why": "兩個動作相同，請選擇兩個不同的動作。",
+      "kind": "same"
+    },
+    "origami|origami": {
+      "key": "origami|origami",
+      "a": "origami",
+      "b": "origami",
+      "ok": false,
+      "why": "兩個動作相同，請選擇兩個不同的動作。",
+      "kind": "same"
+    },
+    "story|story": {
+      "key": "story|story",
+      "a": "story",
+      "b": "story",
+      "ok": false,
+      "why": "兩個動作相同，請選擇兩個不同的動作。",
+      "kind": "same"
+    }
+  },
+  "subjectlessQuestions": [
+    {
+      "id": "subjectless-sing-dance",
+      "a": "sing",
+      "b": "dance",
+      "ok": false,
+      "noSubject": true,
+      "exampleSubject": "sister"
+    },
+    {
+      "id": "subjectless-sing-clap",
+      "a": "sing",
+      "b": "clap",
+      "ok": false,
+      "noSubject": true,
+      "exampleSubject": "father"
+    },
+    {
+      "id": "subjectless-music-draw",
+      "a": "music",
+      "b": "draw",
+      "ok": false,
+      "noSubject": true,
+      "exampleSubject": "mother"
+    },
+    {
+      "id": "subjectless-walk-clap",
+      "a": "walk",
+      "b": "clap",
+      "ok": false,
+      "noSubject": true,
+      "exampleSubject": "brother"
+    }
+  ]
+}
